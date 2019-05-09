@@ -6,9 +6,9 @@ public class DBConnection {
 
 	public static Connection CreateConnection() {
 		Connection conn=null;
-		String url="jdbc:mysql://localhost:3306/quanlyshopgiay?useUnicode=yes&characterEncoding=UTF-8";
-		String username="root";
-		String pass="TranMinhTung20091998";
+		String url="jdbc:mysql://den1.mysql6.gear.host/shopgiayttv?useUnicode=yes&characterEncoding=UTF-8";
+		String username="shopgiayttv";
+		String pass="shopgiayttv@1";
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(url, username, pass);
